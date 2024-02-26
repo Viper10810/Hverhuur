@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verlof Aanvragen</title>
+    <link rel="stylesheet" href="verlof.css">
+</head>
+<body>
+    <div class="availability-container">
+        <h2>Verlof Aanvragen</h2>
+        <form id="availabilityForm">
+            <div class="input-group">
+                <label for="name">Naam:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="unavailableDates">Onbeschikbare Data:</label>
+                <input type="date" id="unavailableDates" name="unavailableDates" required>
+            </div>
+            <button type="submit">Verzenden</button>
+        </form>
+    </div>
+
+    <script src="verlof.js"></script>
+</body>
+</html>
